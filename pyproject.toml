@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "doomed"
+version = "0.0.1"
+description = "Easy to use tools for classic doom modding"
+authors = ["Anthony W. Weed <devnoot@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rich = "^13.9.4"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
